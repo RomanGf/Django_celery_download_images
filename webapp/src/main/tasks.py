@@ -3,7 +3,7 @@ import uuid
 from celery import shared_task
 from django.conf import settings
 
-CAT_URL = "http://cataas.com/cat"
+CAT_URL = "http://thecatapi.com/api/images/get?format=src&type=gif"
 
 
 @shared_task
